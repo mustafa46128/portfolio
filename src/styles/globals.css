@@ -18,12 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
@@ -31,3 +31,57 @@ body {
     text-wrap: balance;
   }
 }
+
+.clipped-div {
+  /* clip-path: polygon(0 28%, 50% 0, 100% 27%, 100% 76%, 48% 100%, 0 74%); */
+  /* clip-path: polygon(13% 24%, 50% 0, 88% 22%, 90% 76%, 50% 98%, 14% 78%);*/
+  /* clip-path: polygon(16% 26%, 50% 4%, 84% 24%, 86% 71%, 50% 94%, 18% 73%);
+  background: #0ef;
+  text-align: center; */
+  width: 200px;
+  height: 230px;
+  background: linear-gradient(to right, #32c5ff, #3a7bd5);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hexagon {
+  position: relative;
+  width: 200px;
+  height: 230px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #00b5ad; /* Adjust background color */
+}
+
+.hexagon-inner {
+  position: absolute;
+  top: 8px; /* Adjust based on border width */
+  left: 8px; /* Adjust based on border width */
+  right: 8px; /* Adjust based on border width */
+  bottom: 8px; /* Adjust based on border width */
+  clip-path: inherit;
+  background-color: #323946; /* Background color of the page */
+}
+
+.inner-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* .rounded-polygon {
+  clip-path: url(#roundedPolygon);
+  padding: 20px;
+  background: lightblue;
+  text-align: center;
+  box-shadow: 2px 59px 39px -31px rgba(0, 213, 237, 0.94);
+} */
+
+/* .shadow {
+  -webkit-box-shadow: 2px 59px 39px -31px rgba(0, 213, 237, 0.94);
+  -moz-box-shadow: 2px 59px 39px -31px rgba(0, 213, 237, 0.94);
+  box-shadow: 2px 59px 39px -31px rgba(0, 213, 237, 0.94);
+} */
