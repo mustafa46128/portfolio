@@ -1,41 +1,45 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
+import { SiNextdotjs } from "react-icons/si";
 import { MdImportantDevices } from "react-icons/md";
 import { FaCloudUploadAlt } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 const data = [
   {
     icon: <FaReact />,
-    title: "Frontend",
-    desc: "A set of technologies focused on creating the visual and interactive aspects of a website or application, including responsive layouts,dynamic content rendering, and seamless user experiences across different devices and browsers.",
+    title: "React Js",
+    desc: "I create fast, interactive websites using React.js that offer smooth user experiences and responsive designs. Whether you're building a simple app or a complex platform, I ensure your site is dynamic, efficient, and visually engaging.",
   },
   {
-    icon: <MdImportantDevices />,
+    icon: <SiNextdotjs />,
 
-    title: "Responsive Design",
-    desc: `Responsive design is a technique in web development that makes websites automatically adjust to fit any screen size, whether it's a desktop, tablet, or smartphone. This ensures that users have a consistent and optimized experience, no matter what device they're using.`,
+    title: "Next Js",
+    desc: `I build fast, SEO-friendly web applications using Next.js. With its server-side rendering and static site generation capabilities, I deliver highly optimized websites that load quickly, rank well, and provide a smooth, engaging user experience across all devices.
+
+`,
+  },
+  {
+    icon: <RiTailwindCssFill />,
+
+    title: "Tailwind Css",
+    desc: `
+I design visually appealing and responsive websites using Tailwind CSS. With its utility-first approach, I can quickly build custom, flexible layouts that are optimized for performance and look great on any device`,
   },
   {
     icon: <TbApi />,
-
     title: "API",
-    desc: `
-An API (Application Programming Interface) is a tool that enables seamless communication between software applications, allowing them to share data and functionality efficiently. It defines protocols for integration, driving interoperability and innovation in modern software ecosystems.`,
+    desc: `I create and integrate APIs that allow different systems and services to communicate with each other. Whether it's connecting external services or building custom solutions, I make sure your web applications run smoothly and efficiently`,
+  },
+  {
+    icon: <MdImportantDevices />,
+    title: "Responsive",
+    desc: `I create responsive websites that look great and work perfectly on any device, whether it's a desktop, tablet, or mobile. My designs automatically adjust to different screen sizes for a smooth user experience`,
   },
   {
     icon: <FaCloudUploadAlt />,
     title: "Depolyment",
-    desc: `Skilled in deploying applications using cloud platforms and virtual private servers (VPS), ensuring reliable, scalable, and secure hosting environments for web solutions.`,
-  },
-  {
-    image: "/depolyment.png",
-    title: "Depolyment",
-    desc: `Responsive design is a technique in web development that makes websites automatically adjust to fit any screen size, whether it's a desktop, tablet, or smartphone. This ensures that users have a consistent and optimized experience, no matter what device they're using.`,
-  },
-  {
-    image: "/depolyment.png",
-    title: "Depolyment",
-    desc: `Responsive design is a technique in web development that makes websites automatically adjust to fit any screen size, whether it's a desktop, tablet, or smartphone. This ensures that users have a consistent and optimized experience, no matter what device they're using.`,
+    desc: `I handle the deployment of websites and applications, ensuring they are successfully launched and accessible online. From setting up servers to managing updates, I make sure your site runs smoothly in a live environment`,
   },
 ];
 
