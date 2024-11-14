@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="w-full">
       <div className=" flex lg:flex-row flex-col w-full mx-auto  lg:justify-between sm:px-14 px-4 ">
-        <div className="w-full sm:w-[70%] flex flex-col items-center  ">
+        <div className="w-full sm:w-[70%] flex flex-col items-center pb-8 ">
           <div className="w-full">
             <h1 className="text-2xl sm:text-3xl font-bold sm:py-2 text-[#fff] font-poppins ">
               {`Hello,It's Me`}
