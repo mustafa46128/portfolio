@@ -56,7 +56,7 @@ const Portfolio = () => {
       </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full gap-4 pb-6">
         {imageData.map((items, index) => (
-          <div className="w-full relative group ">
+          <div className="w-full relative group  " key={index}>
             <Image
               src={items.image}
               alt={`Image ${index}`}
@@ -66,7 +66,7 @@ const Portfolio = () => {
             />
             <div className="absolute  left-0 right-0 bottom-0 bg-gradient-to-b  from-custom-black to-custom-blue rounded-lg overflow-hidden transition-all duration-300 ease-in-out group-hover:h-full h-0 flex flex-col justify-center items-center">
               <div className="flex flex-col justify-center items-center w-full">
-                <h1 className="text-white text-[20px] font-semibold font-poppins">
+                <h1 className="text-white text-[20px] font-semibold font-poppins ">
                   {items.name}
                 </h1>
                 <p className="text-white text-center text-sm font-poppins px-2">

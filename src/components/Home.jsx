@@ -15,23 +15,24 @@ function Home() {
         <div className="w-full sm:w-[70%] flex flex-col items-center  ">
           <div className="w-full">
             <h1 className="text-2xl sm:text-3xl font-bold sm:py-2 text-[#fff] font-poppins ">
-              Hello,It's Me
+              {`Hello,It's Me`}
             </h1>
             <h2 className=" text-[22px] sm:text-4xl font-bold md:leading-3 sm:py-2  text-[#fff] font-poppins">
               Muhammad Mustafa
             </h2>
             <h3 className="text-xl sm:text-3xl font-bold py-1 sm:py-2 text-[#fff] font-poppins">
-              And I'm a <span className="text-[#0ef]">Frontend Developer</span>
+              {`And I'm a`}{" "}
+              <span className="text-[#0ef]">Frontend Developer</span>
             </h3>
             <p className="text-base w-full text-[#fff] font-poppins ">
-              A frontend developer is a professional who specializes in crafting
+              {`A frontend developer is a professional who specializes in crafting
               the visual and interactive elements of websites and web
               applications. They use languages like HTML, CSS, and JavaScript,
               along with frameworks such as React js,Next js , to build
               responsive, user-friendly interfaces. Their primary focus is to
               ensure that the design is translated into a functional, engaging
               experience across all devices and browsers, optimizing for both
-              performance and accessibility.
+              performance and accessibility.`}
             </p>
             <div className="flex gap-2 mt-4">
               <Link href="https://www.facebook.com/profile.php?id=100028412898842&mibextid=ZbWKwL">
