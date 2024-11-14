@@ -57,7 +57,7 @@ function Home() {
                 </Link>
               </div>
             </div>
-            <div className="mb-10 mt-8">
+            {/* <div className="mb-10 mt-8">
               <Link
                 href="/MustafaCv.pdf"
                 target="_blank"
@@ -68,7 +68,7 @@ function Home() {
                   Download Cv
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-full sm:w-[22%] clipped-div lg:flex sm:block hidden relative mb-4 sm:mt-10">
