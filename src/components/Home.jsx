@@ -73,7 +73,7 @@ function Home() {
               src="./home.png"
               width={100}
               height={100}
-              className="image-div h-52 w-72 absolute -bottom-2"
+              className="image-div h-52 w-72 absolute -bottom-2 "
               alt="Home"
             />
           </div>
