@@ -53,9 +53,9 @@ function Home() {
                 </Link>
               </div>
             </div>
-            {/* <div className="mb-10 mt-8">
+            <div className="mb-10 mt-8">
               <Link
-                href="/MustafaCv.pdf"
+                href="/Mustafacv2years.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
@@ -64,7 +64,7 @@ function Home() {
                   Download Cv
                 </button>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="w-full sm:w-1/4 flex justify-center sm:justify-normal">

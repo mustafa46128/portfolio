@@ -76,7 +76,7 @@ const Portfolio = () => {
                   {items.desc}
                 </p>
                 <a href={items?.url} target="_blank">
-                  <h5 className="text-white font-poppins font-semibold text-[14px] mt-4">
+                  <h5 className="text-white font-poppins font-semibold text-[14px] mt-4 hover:text-blue-700">
                     {items?.url}
                   </h5>
                 </a>
