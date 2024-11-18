@@ -45,7 +45,7 @@ I design visually appealing and responsive websites using Tailwind CSS. With its
 
 function Services() {
   return (
-    <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4 w-[80%] mx-auto bg-[#1f242d] px-4 sm:px-14 py-6">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 w-[90%] lg:w-[80%] mx-auto bg-[#1f242d] px-4 sm:px-14 py-6">
       <h1 className="col-span-full text-white text-2xl font-poppins font-semibold  text-center pt-2">
         Services
       </h1>

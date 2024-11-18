@@ -2,7 +2,10 @@ import React from "react";
 
 function Skills() {
   return (
-    <div id="skills" className="bg-[#1f242d] w-[80%] mx-auto px-4 sm:px-14 ">
+    <div
+      id="skills"
+      className="bg-[#1f242d] w-[90%] lg:w-[80%] mx-auto px-4 sm:px-14 "
+    >
       <h1 className="text-white text-[24px] text-center font-semibold font-poppins pt-6 mb-6">
         My <span className="text-[#0ef]">Skills</span>
       </h1>

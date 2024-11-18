@@ -50,7 +50,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="bg-[#323946] py-4 w-[80%] mx-auto flex justify-center flex-col px-8"
+      className="bg-[#323946] py-4 w-[90%] lg:w-[80%] mx-auto flex justify-center flex-col px-8"
     >
       <h1 className="text-center text-white text-[24px] font-semibold font-poppins mb-4">
         Contact <span className="text-[#0ef]">Me!</span>

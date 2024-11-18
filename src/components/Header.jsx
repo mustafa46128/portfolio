@@ -21,7 +21,7 @@ function Header() {
   ];
 
   return (
-    <div className="w-4/5 mx-auto bg-[#1f242d] rounded-t-lg relative">
+    <div className="w-[90%] lg:w-4/5 mx-auto bg-[#1f242d] rounded-t-lg relative">
       <div className="w-full flex justify-between items-center px-4 sm:px-14 py-4">
         <div>
           <h1 className="text-[#ededed] text-[35px] font-semibold font-poppins">

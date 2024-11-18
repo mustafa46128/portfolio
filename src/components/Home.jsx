@@ -11,7 +11,7 @@ import {
 function Home() {
   return (
     <div className="w-full">
-      <div className=" flex lg:flex-row flex-col w-full mx-auto  lg:justify-between sm:px-14 px-4 ">
+      <div className=" flex lg:flex-row flex-col w-full mx-auto  lg:justify-between sm:px-14 px-4">
         <div className="w-full sm:w-[70%] flex flex-col items-center pb-8 ">
           <div className="w-full">
             <h1 className="text-2xl sm:text-3xl font-bold sm:py-2 text-[#fff] font-poppins ">
@@ -25,14 +25,10 @@ function Home() {
               <span className="text-[#0ef]">Frontend Developer</span>
             </h3>
             <p className="text-base w-full text-[#fff] font-poppins ">
-              {`A frontend developer is a professional who specializes in crafting
-              the visual and interactive elements of websites and web
-              applications. They use languages like HTML, CSS, and JavaScript,
-              along with frameworks such as React js,Next js , to build
-              responsive, user-friendly interfaces. Their primary focus is to
-              ensure that the design is translated into a functional, engaging
-              experience across all devices and browsers, optimizing for both
-              performance and accessibility.`}
+              {` A frontend developer builds responsive and accessible web interfaces
+            using HTML, CSS, JavaScript, and frameworks like React.js and
+            Next.js, ensuring seamless user experiences across devices and
+            browsers.`}
             </p>
             <div className="flex gap-2 mt-4">
               <Link href="https://www.facebook.com/profile.php?id=100028412898842&mibextid=ZbWKwL">
@@ -71,14 +67,16 @@ function Home() {
             </div> */}
           </div>
         </div>
-        <div className="w-full sm:w-[22%] clipped-div lg:flex sm:block hidden relative mb-4 sm:mt-10">
-          <Image
-            src="./home.png"
-            width={100}
-            height={100}
-            className="image-div h-52 w-72 absolute -bottom-2"
-            alt="Home"
-          />
+        <div className="w-full sm:w-1/4 flex justify-center sm:justify-normal">
+          <div className="w-full clipped-div flex relative mb-4 sm:mt-10 justify-center ">
+            <Image
+              src="./home.png"
+              width={100}
+              height={100}
+              className="image-div h-52 w-72 absolute -bottom-2"
+              alt="Home"
+            />
+          </div>
         </div>
       </div>
     </div>

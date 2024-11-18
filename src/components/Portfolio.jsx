@@ -41,7 +41,10 @@ const imageData = [
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className=" w-[80%] mx-auto bg-[#323946] px-4 sm:px-14">
+    <div
+      id="portfolio"
+      className="w-[90%] lg:w-[80%] mx-auto bg-[#323946] px-4 sm:px-14"
+    >
       <h1 className="text-white text-center text-[24px] font-semibold font-poppins pt-3 pb-2">
         Latest <span className="text-[#0ef]">Project</span>
       </h1>

@@ -24,7 +24,7 @@ function Footer() {
   ];
 
   return (
-    <div className="w-4/5 mx-auto bg-[#1f242d]">
+    <div className="w-[90%] lg:w-4/5 mx-auto bg-[#1f242d]">
       <div className="w-full flex-col justify-center items-center text-center px-4 sm:px-14 pt-10 ">
         <div>
           <h1 className="text-[#ededed] text-[35px] font-semibold font-poppins">
