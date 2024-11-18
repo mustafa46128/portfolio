@@ -27,17 +27,17 @@ function About() {
             Frontend Developer!
           </h3>
           <p className="w-full text-[#fff] py-3 font-poppins">
-            I'm Mustafa, a lead web developer from Pakistan, specializing in
+            {`I'm Mustafa, a lead web developer from Pakistan, specializing in
             custom website development, e-commerce solutions, and website
-            optimization.
+            optimization.`}
           </p>
           <p className="w-full text-[#fff]  font-poppins">
-            I enjoy turning complex frontend development challenges into
+            {`I enjoy turning complex frontend development challenges into
             seamless, user-friendly, and high-performing web experiences. My
             goal is to craft solutions that align perfectly with your brand and
             business objectives. I specialize in building responsive websites
             using modern technologies, ensuring optimal performance and a smooth
-            user experience across all devices
+            user experience across all devices`}
           </p>
           <div>
             <button className="rounded-full bg-[#0ef] px-3 py-1 mt-2 font-semibold font-poppins">
